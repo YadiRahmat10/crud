@@ -3,6 +3,7 @@ import { Button, Table, Modal, Image } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import array from './array';
 import { Link, useNavigate } from 'react-router-dom';
+import Search from './search';
 
 function Home() {
 
@@ -34,6 +35,8 @@ function Home() {
 
 	return (
 		<div style={{ margin: '10rem' }} >
+			<Search/><br/>
+			
 			<Table striped bordered hover size="sm">
 				<thead>
 					<tr>
