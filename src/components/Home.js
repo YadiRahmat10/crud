@@ -56,8 +56,8 @@ function Home() {
 							<tr>
 								<td><Image src={item.image} thumbnail style={{height: '108px'}}/></td>
 								<td>{item.namaBarang}</td>
-								<td>{item.hargaBeli}</td>
-								<td>{item.hargaJual}</td>
+								<td>Rp.{item.hargaBeli}</td>
+								<td>Rp.{item.hargaJual}</td>
 								<td>{item.stok}</td>
 								{/* getting theid,name, and
 									age for storing these
